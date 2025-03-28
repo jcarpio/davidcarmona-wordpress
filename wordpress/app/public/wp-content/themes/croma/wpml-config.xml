@@ -1,0 +1,17 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">event</custom-type>
+    <custom-type translate="1">album</custom-type>
+    <custom-type translate="1">artist</custom-type>
+    <custom-type translate="1">video</custom-type>
+    <custom-type translate="1">vc_grid_item</custom-type>
+    <custom-type translate="1">essential_grid</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="1">video-category</taxonomy>
+    <taxonomy translate="1">portfolio-category</taxonomy>
+    <taxonomy translate="1">album-category</taxonomy>
+    <taxonomy translate="1">photo-album-category</taxonomy>
+    <taxonomy translate="1">essential_grid_category</taxonomy>
+  </taxonomies>
+</wpml-config>

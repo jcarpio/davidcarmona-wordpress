@@ -1,0 +1,59 @@
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 192.168.43.155. Set the 'ServerName' directive globally to suppress this message
+[Fri Mar 28 10:12:16.311522 2025] [mpm_event:notice] [pid 10085:tid 8464534528] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Fri Mar 28 10:12:16.311975 2025] [core:notice] [pid 10085:tid 8464534528] AH00094: Command line: '/Users/jose/Library/Application Support/Local/lightning-services/apache-2.4.43+11/bin/darwin-arm64/bin/httpd -D FOREGROUND -f /Users/jose/Library/Application Support/Local/run/8mFzTiXfq/conf/apache/apache2.conf'
+[Fri Mar 28 10:18:39.011148 2025] [mpm_event:notice] [pid 10085:tid 8464534528] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 192.168.43.155. Set the 'ServerName' directive globally to suppress this message
+[Fri Mar 28 10:23:39.376299 2025] [mpm_event:notice] [pid 11187:tid 8464534528] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Fri Mar 28 10:23:39.376704 2025] [core:notice] [pid 11187:tid 8464534528] AH00094: Command line: '/Users/jose/Library/Application Support/Local/lightning-services/apache-2.4.43+11/bin/darwin-arm64/bin/httpd -D FOREGROUND -f /Users/jose/Library/Application Support/Local/run/8mFzTiXfq/conf/apache/apache2.conf'
+[Fri Mar 28 11:01:11.959492 2025] [mpm_event:notice] [pid 11187:tid 8464534528] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 192.168.43.155. Set the 'ServerName' directive globally to suppress this message
+[Fri Mar 28 11:01:42.928071 2025] [mpm_event:notice] [pid 12500:tid 8464534528] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Fri Mar 28 11:01:42.928563 2025] [core:notice] [pid 12500:tid 8464534528] AH00094: Command line: '/Users/jose/Library/Application Support/Local/lightning-services/apache-2.4.43+11/bin/darwin-arm64/bin/httpd -D FOREGROUND -f /Users/jose/Library/Application Support/Local/run/8mFzTiXfq/conf/apache/apache2.conf'
+[Fri Mar 28 11:10:32.687498 2025] [mpm_event:notice] [pid 12500:tid 8464534528] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 192.168.43.155. Set the 'ServerName' directive globally to suppress this message
+[Fri Mar 28 11:10:35.328309 2025] [mpm_event:notice] [pid 12656:tid 8464534528] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Fri Mar 28 11:10:35.328979 2025] [core:notice] [pid 12656:tid 8464534528] AH00094: Command line: '/Users/jose/Library/Application Support/Local/lightning-services/apache-2.4.43+11/bin/darwin-arm64/bin/httpd -D FOREGROUND -f /Users/jose/Library/Application Support/Local/run/8mFzTiXfq/conf/apache/apache2.conf'
+[Fri Mar 28 11:11:05.512540 2025] [mpm_event:notice] [pid 12656:tid 8464534528] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 192.168.43.155. Set the 'ServerName' directive globally to suppress this message
+[Fri Mar 28 11:15:31.169757 2025] [mpm_event:notice] [pid 12731:tid 8464534528] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Fri Mar 28 11:15:31.170485 2025] [core:notice] [pid 12731:tid 8464534528] AH00094: Command line: '/Users/jose/Library/Application Support/Local/lightning-services/apache-2.4.43+11/bin/darwin-arm64/bin/httpd -D FOREGROUND -f /Users/jose/Library/Application Support/Local/run/8mFzTiXfq/conf/apache/apache2.conf'
+[Fri Mar 28 11:15:43.347651 2025] [mpm_event:notice] [pid 12731:tid 8464534528] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 192.168.43.155. Set the 'ServerName' directive globally to suppress this message
+[Fri Mar 28 11:15:49.182100 2025] [mpm_event:notice] [pid 12781:tid 8464534528] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Fri Mar 28 11:15:49.182967 2025] [core:notice] [pid 12781:tid 8464534528] AH00094: Command line: '/Users/jose/Library/Application Support/Local/lightning-services/apache-2.4.43+11/bin/darwin-arm64/bin/httpd -D FOREGROUND -f /Users/jose/Library/Application Support/Local/run/8mFzTiXfq/conf/apache/apache2.conf'
+[Fri Mar 28 11:19:17.769359 2025] [mpm_event:notice] [pid 12781:tid 8464534528] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 192.168.43.155. Set the 'ServerName' directive globally to suppress this message
+[Fri Mar 28 11:19:22.153071 2025] [mpm_event:notice] [pid 12837:tid 8464534528] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Fri Mar 28 11:19:22.153501 2025] [core:notice] [pid 12837:tid 8464534528] AH00094: Command line: '/Users/jose/Library/Application Support/Local/lightning-services/apache-2.4.43+11/bin/darwin-arm64/bin/httpd -D FOREGROUND -f /Users/jose/Library/Application Support/Local/run/8mFzTiXfq/conf/apache/apache2.conf'
+[Fri Mar 28 11:20:05.920785 2025] [mpm_event:notice] [pid 12837:tid 8464534528] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 192.168.43.155. Set the 'ServerName' directive globally to suppress this message
+[Fri Mar 28 11:20:59.662596 2025] [mpm_event:notice] [pid 12881:tid 8464534528] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Fri Mar 28 11:20:59.664537 2025] [core:notice] [pid 12881:tid 8464534528] AH00094: Command line: '/Users/jose/Library/Application Support/Local/lightning-services/apache-2.4.43+11/bin/darwin-arm64/bin/httpd -D FOREGROUND -f /Users/jose/Library/Application Support/Local/run/8mFzTiXfq/conf/apache/apache2.conf'
+[Fri Mar 28 11:21:48.446152 2025] [mpm_event:notice] [pid 12881:tid 8464534528] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 192.168.43.155. Set the 'ServerName' directive globally to suppress this message
+[Fri Mar 28 11:21:52.170939 2025] [mpm_event:notice] [pid 12934:tid 8464534528] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Fri Mar 28 11:21:52.171455 2025] [core:notice] [pid 12934:tid 8464534528] AH00094: Command line: '/Users/jose/Library/Application Support/Local/lightning-services/apache-2.4.43+11/bin/darwin-arm64/bin/httpd -D FOREGROUND -f /Users/jose/Library/Application Support/Local/run/8mFzTiXfq/conf/apache/apache2.conf'
+[Fri Mar 28 11:24:15.573639 2025] [mpm_event:notice] [pid 12934:tid 8464534528] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 192.168.43.155. Set the 'ServerName' directive globally to suppress this message
+[Fri Mar 28 11:24:18.179647 2025] [mpm_event:notice] [pid 12990:tid 8464534528] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Fri Mar 28 11:24:18.180013 2025] [core:notice] [pid 12990:tid 8464534528] AH00094: Command line: '/Users/jose/Library/Application Support/Local/lightning-services/apache-2.4.43+11/bin/darwin-arm64/bin/httpd -D FOREGROUND -f /Users/jose/Library/Application Support/Local/run/8mFzTiXfq/conf/apache/apache2.conf'
+[Fri Mar 28 11:25:17.439407 2025] [mpm_event:notice] [pid 12990:tid 8464534528] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 192.168.43.155. Set the 'ServerName' directive globally to suppress this message
+[Fri Mar 28 11:25:19.190641 2025] [mpm_event:notice] [pid 13042:tid 8464534528] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Fri Mar 28 11:25:19.191022 2025] [core:notice] [pid 13042:tid 8464534528] AH00094: Command line: '/Users/jose/Library/Application Support/Local/lightning-services/apache-2.4.43+11/bin/darwin-arm64/bin/httpd -D FOREGROUND -f /Users/jose/Library/Application Support/Local/run/8mFzTiXfq/conf/apache/apache2.conf'
+[Fri Mar 28 11:26:12.740238 2025] [mpm_event:notice] [pid 13042:tid 8464534528] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 192.168.43.155. Set the 'ServerName' directive globally to suppress this message
+[Fri Mar 28 11:26:15.584085 2025] [mpm_event:notice] [pid 13096:tid 8464534528] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Fri Mar 28 11:26:15.584623 2025] [core:notice] [pid 13096:tid 8464534528] AH00094: Command line: '/Users/jose/Library/Application Support/Local/lightning-services/apache-2.4.43+11/bin/darwin-arm64/bin/httpd -D FOREGROUND -f /Users/jose/Library/Application Support/Local/run/8mFzTiXfq/conf/apache/apache2.conf'
+[Fri Mar 28 11:35:44.508677 2025] [mpm_event:notice] [pid 13096:tid 8464534528] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 192.168.43.155. Set the 'ServerName' directive globally to suppress this message
+[Fri Mar 28 11:35:46.352953 2025] [mpm_event:notice] [pid 13355:tid 8464534528] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Fri Mar 28 11:35:46.354139 2025] [core:notice] [pid 13355:tid 8464534528] AH00094: Command line: '/Users/jose/Library/Application Support/Local/lightning-services/apache-2.4.43+11/bin/darwin-arm64/bin/httpd -D FOREGROUND -f /Users/jose/Library/Application Support/Local/run/8mFzTiXfq/conf/apache/apache2.conf'
+[Fri Mar 28 11:46:36.522086 2025] [mpm_event:notice] [pid 13355:tid 8464534528] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 192.168.43.155. Set the 'ServerName' directive globally to suppress this message
+[Fri Mar 28 11:46:39.634508 2025] [mpm_event:notice] [pid 13456:tid 8464534528] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Fri Mar 28 11:46:39.634825 2025] [core:notice] [pid 13456:tid 8464534528] AH00094: Command line: '/Users/jose/Library/Application Support/Local/lightning-services/apache-2.4.43+11/bin/darwin-arm64/bin/httpd -D FOREGROUND -f /Users/jose/Library/Application Support/Local/run/8mFzTiXfq/conf/apache/apache2.conf'
+[Fri Mar 28 11:50:42.110239 2025] [mpm_event:notice] [pid 13456:tid 8464534528] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 192.168.43.155. Set the 'ServerName' directive globally to suppress this message
+[Fri Mar 28 11:50:45.463644 2025] [mpm_event:notice] [pid 14258:tid 8464534528] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Fri Mar 28 11:50:45.464402 2025] [core:notice] [pid 14258:tid 8464534528] AH00094: Command line: '/Users/jose/Library/Application Support/Local/lightning-services/apache-2.4.43+11/bin/darwin-arm64/bin/httpd -D FOREGROUND -f /Users/jose/Library/Application Support/Local/run/8mFzTiXfq/conf/apache/apache2.conf'

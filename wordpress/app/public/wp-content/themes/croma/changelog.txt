@@ -1,0 +1,119 @@
+V.2.2.4 - 02.10.2017
+----------------------------------------------
+- Audio streaming when Ajax is not enabled
+- Bug fix for the audioplayer
+
+V.2.2.3 - 01.23.2017
+----------------------------------------------
+- Updated the audio player to start the audio in streaming
+- updated Croma Music to 2.4
+- Bug fix when "current page item" was not updated in ajax
+- Fixed an issue with Revolution Slider and the Event shortcode
+
+V.2.2.2 - 01.11.2017
+----------------------------------------------
+- Fixed an issue when selecting the default archive option
+- Bug fix with essentialGrid and the ajax option
+- bug fix with Safari in IOS and the video grid
+- Bug fix with Woocommerce and the ajax option
+- Bug fix with inline js and the ajax option
+
+----------------------------------------------
+V.2.2.1 - 12.22.2016
+----------------------------------------------
+- New feature on Visual Composer shortcode button. You can choose an album to play on click event.
+- Updated Revolution Slider 5.3.1.5
+- Updated PSD file with the new demo.
+- Fixed the home link on the mobile menu.
+
+----------------------------------------------
+V.2.2 - 12.20.2016
+----------------------------------------------
+- New feature! Save the custom stylesheet in a file for speed improvement.
+- Updated Croma Music to version 2.3
+- Updated Visual Composer to 5.0.1
+- Fixed visual for checkbox in ContactForm plugin
+- Fixed visual for captcha in ContactForm plugin
+- Fixed the footer logo not appearing
+- Added class "no-ajax" to use when a link as to be treated without ajax
+
+----------------------------------------------
+V.2.1.5 - 11.25.2016
+----------------------------------------------
+- Updated the listing of songs in single album template
+- Updated template for single product woocommerce
+- Updated Visual Composer to 5.0
+- Updated Croma Music plugin to 2.2
+- Fixed Event message when there's no event
+- Improving the social share speed
+- Removed Addthis
+
+----------------------------------------------
+V.2.1.4 - 11.06.2016
+----------------------------------------------
+- Bug fix with the push menu
+
+----------------------------------------------
+V.2.1.3 - 11.03.2016
+----------------------------------------------
+- Bug fix with the logo on classic menu
+- Fixed some issues with the niceScroll
+
+
+----------------------------------------------
+V.2.1.2 - 10.26.2016
+----------------------------------------------
+- Bug fix with the footer and the continuous player and body Class
+
+
+----------------------------------------------
+V.2.1.1 - 10.25.2016
+----------------------------------------------
+- Fixed some issues with the footer and the continuous player
+- Fixed some issues when some inline script where loaded before their library
+
+
+----------------------------------------------
+V.2.1 - 10.21.2016
+----------------------------------------------
+- Updated the design of the single album template
+- Fixed some issues with the Classic Menu on mobile version
+- Fixed the audio player when the option Ajax is not enabled
+- Fixed the languages Area in the Classic Menu
+- Bug fix with the Ajax version
+- Updated Croma Music plugin to 2.1
+
+
+----------------------------------------------
+V.2.0 - 10.03.2016
+----------------------------------------------
+- Added an option to enable Ajax through all your page. This option automatically enable a continious audio player through your pages while users navigate your site. Page load time is also improved 2x faster;
+- Updated Visual Composer to 4.12.1;
+- Added a "Back" button when using sub-menus in Push menu mode;
+- Fixed some issues with touch-screen displays;
+- Fixed Google Fonts on the audio player.
+- Removed a call to a Facebook script if you are not using it.
+- Updated Croma Music plugin to 2.0
+
+
+----------------------------------------------
+V.1.2 - 08.18.2016
+----------------------------------------------
+- Adding a new universal widget areas for language selector
+
+----------------------------------------------
+V.1.1 - 08.03.2016
+----------------------------------------------
+- Fixed video lightbox on mobile.
+- Fixed error notices when using PHP 5.4 and less. Now it's 100% compatible.
+- Updated Revolution Slider to 5.2.6
+
+----------------------------------------------
+V.1.0.1 - 06.27.2016
+----------------------------------------------
+- Fixed older version of php
+
+----------------------------------------------
+V.1.0 - 03.01.2016
+----------------------------------------------
+- Initial Version

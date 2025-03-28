@@ -1,0 +1,369 @@
+# Translation of Plugins - PDF Embedder - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - PDF Embedder - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-11-16 12:29:08+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - PDF Embedder - Stable (latest release)\n"
+
+#: core/install_skin.php:81
+msgid "There was an error installing the addon. Please try again."
+msgstr "Er is een fout opgetreden bij het installeren van de add-on. Probeer het opnieuw."
+
+#: core/core_pdf_embedder.php:619
+msgid "Height must be \"max\" or an integer (number of pixels). Settings reset to \"max\"."
+msgstr "Hoogte moet \"max\" zijn of een geheel getal (aantal pixels). Instellingen hersteld naar \"max\"."
+
+#: core/core_pdf_embedder.php:618
+msgid "Width must be \"max\" or an integer (number of pixels). Settings reset to \"max\"."
+msgstr "Breedte moet \"max\" zijn of een geheel getal (aantal pixels). Instellingen hersteld naar \"max\"."
+
+#: core/core_pdf_embedder.php:552
+msgid "We have partnered with these amazing companies for further enhancement to your PDF Embedder experience."
+msgstr "We zijn een samenwerking aangegaan met deze geweldige bedrijven voor een verdere verbetering van de je PDF Embedder ervaring."
+
+#: core/core_pdf_embedder.php:550
+msgid "See Our Partners!"
+msgstr "Bekijk onze partners!"
+
+#: core/core_pdf_embedder.php:394
+msgid "About"
+msgstr "Over"
+
+#: core/core_pdf_embedder.php:362
+msgid "Proceed"
+msgstr "Doorgaan"
+
+#: core/core_pdf_embedder.php:361
+msgid "Installing..."
+msgstr "Aan het installeren..."
+
+#: core/core_pdf_embedder.php:359
+msgid "Install"
+msgstr "Installeer"
+
+#: core/core_pdf_embedder.php:358
+msgid "Status: Inactive"
+msgstr "Status: inactief"
+
+#: core/core_pdf_embedder.php:357
+msgid "Deactivating..."
+msgstr "Aan het deactiveren..."
+
+#: core/core_pdf_embedder.php:355
+msgid "Deactivate"
+msgstr "Deactiveer"
+
+#: core/core_pdf_embedder.php:353
+msgid "Activating..."
+msgstr "Aan het activeren..."
+
+#: core/core_pdf_embedder.php:352
+msgid "Activate"
+msgstr "Activeer"
+
+#: core/core_pdf_embedder.php:351
+msgid "Status: Active"
+msgstr "Status: actief"
+
+#. Author of the plugin
+msgid "WP PDF Embedder Team"
+msgstr "WP PDF Embedder Team"
+
+#: core/core_pdf_embedder.php:497
+msgid "Display \"Powered by wp-pdf.com\" on PDF Viewer with a link to our site. Spread the love!"
+msgstr "\"Aangedreven door wp-pdf.com\" tonen in PDF viewer met een link naar onze site. Verspreid de liefde!"
+
+#: core/core_pdf_embedder.php:493
+msgid "Display Credit"
+msgstr "Credits tonen"
+
+#. Description of the plugin
+msgid "Embed PDFs straight into your posts and pages, with flexible width and height. No third-party services required. Compatible with Gutenberg Editor WordPress"
+msgstr "PDF's rechtstreeks insluiten je berichten en pagina's, met flexibele breedte en hoogte. Geen diensten van derden benodigd. Compatibel met de WordPress Gutenberg editor"
+
+#: pdf_embedder.php:151
+msgid "The user can also touch and scroll continuously between all pages of the PDF which is much easier than clicking the next/prev buttons to navigate."
+msgstr "De gebruiker kan tussen alle PDF pagina's navigeren met het muiswieltje, wat veel handiger is dan de knoppen Vorige/Volgende aan te klikken."
+
+#: pdf_embedder.php:123
+msgid "Allow user to scroll up/down between all pages in the PDF"
+msgstr "Toestaan dat gebruikers door alle pagina's van de PDF heen en weer te bladeren"
+
+#: pdf_embedder.php:121
+msgid "Continous Page Scrolling"
+msgstr "Continue pagina scrolling"
+
+#: core/core_pdf_embedder.php:532
+msgid "Optionally add a watermark containing the user's name or email address to discourage sharing of screenshots."
+msgstr "Optioneel een watermerk toevoegen met de naam of e-mailadres van de gebruiker om delen van schermafbeelding te ontmoedigen."
+
+#: pdf_embedder.php:108
+msgid "Open links in a new browser tab/window"
+msgstr "Links in een nieuw venster/tab openen"
+
+#: pdf_embedder.php:106
+msgid "External Links"
+msgstr "Externe links"
+
+#: pdf_embedder.php:116
+msgid "Count number of views and downloads"
+msgstr "Tel aantal bezoeken en downloads"
+
+#: pdf_embedder.php:101
+msgid "Provide PDF download button on toolbar"
+msgstr "Toon een PDF download knop op de toolbar"
+
+#: pdf_embedder.php:97
+msgid "Options only available in Premium versions"
+msgstr "Opties enkel beschikbaar in Premium versies"
+
+#: pdf_embedder.php:219
+msgid "Downloads/Views"
+msgstr "Weergaves/downloads"
+
+#: pdf_embedder.php:217
+msgid "Track downloads and views with <a href=\"%s\" target=\"_blank\">PDF Embedder Premium</a>"
+msgstr "Volg de downloads en bezoeken met <a href=\"%s\" target=\"_blank\">PDF Embedder Premium</a>"
+
+#: pdf_embedder.php:127
+msgid "Find out more about <a href=\"%s\" target=\"_blank\">Premium Versions of the plugin on our website</a>."
+msgstr "Meer informatie over de <a href=\"%s\" target=\"_blank\">Premium Versions van de plugin op onze webpagina</a>."
+
+#: pdf_embedder.php:114
+msgid "Track Views/Downloads"
+msgstr "Weergaves/downloads volgen"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "http://wp-pdf.com/"
+msgstr "http://wp-pdf.com/"
+
+#: pdf_embedder.php:142
+msgid ""
+"Our <b>PDF Embedder Premium</b> plugin solves this problem with an intelligent 'full screen' mode.\n"
+"            When the document is smaller than a certain width, the document displays only as a 'thumbnail' with a large\n"
+"            'View in Full Screen' button for the\n"
+"            user to click when they want to study your document.\n"
+"            This opens up the document so it has the full focus of the mobile browser, and the user can move about the\n"
+"            document without hitting other parts of\n"
+"            the web page by mistake. Click Exit to return to the regular web page."
+msgstr ""
+"Onze <b>PDF Embedder Premium</b> plugin lost dit probleem op met een intelligente 'volledig scherm' modus.\n"
+"            Als het document kleiner is dan een zekere breedte, zal het document alleen als 'thumbnail' getoond worden met een grote\n"
+"            'Bekijk in volledig scherm' knop voor de\n"
+"            gebruiker om op te klikken als ze je document willen bestuderen.\n"
+"            Dit opent het document zodat het de volle focus van de mobiele browser krijgt, en de gebruiker door het document\n"
+"            kan bladeren zonder per ongeluk andere delen\n"
+"            van de web pagina te raken. Klik Sluiten om terug te gaan naar de normale webpagina."
+
+#: pdf_embedder.php:138
+msgid ""
+"This free version of the plugin should work on most mobile browsers, but it will be cumbersome for users with small screens - it is difficult to position\n"
+"            the document entirely within the screen, and your users' fingers may catch the entire browser page when\n"
+"            they're trying only to move about the document..."
+msgstr ""
+"Deze gratis versie van de plugin zal werken op de meeste mobiele browsers, maar het zal lastig zijn voor gebruikers met smalle schermen - het is moeilijk\n"
+"            om het document helemaal in het scherm te positioneren, en je gebruikers vingers kunnen de hele browser pagina raken\n"
+"            als ze alleen proberen om door het document te bladeren..."
+
+#: pdf_embedder.php:137
+msgid "Mobile-friendly embedding using PDF Embedder Premium"
+msgstr "Mobiel vriendelijk invoegen kan met PDF Embedder Premium"
+
+#: pdf_embedder.php:99
+msgid "Download Button"
+msgstr "Download knop"
+
+#: core/core_pdf_embedder.php:796
+msgid "Settings"
+msgstr "Instellingen"
+
+#: core/core_pdf_embedder.php:671
+msgid "Settings saved"
+msgstr "Je instellingen zijn opgeslagen"
+
+#: core/core_pdf_embedder.php:625
+msgid "Unspecified error"
+msgstr "Niet gespecificeerde fout"
+
+#: core/core_pdf_embedder.php:534 pdf_embedder.php:154
+msgid "See our website <a href=\"%s\">wp-pdf.com</a> for more details and purchase options."
+msgstr "Op onze site <a href=\"%s\">wp-pdf.com</a> staan meer details en aankoop opties."
+
+#: core/core_pdf_embedder.php:530
+msgid "This means that your PDF is unlikely to be shared outside your site where you have no control over who views, prints, or shares it."
+msgstr "Dit betekent dat je PDF waarschijnlijk niet buiten je site gedeeld zal worden waar je geen controle hebt over wie het bekijkt, afdrukt of deelt."
+
+#: core/core_pdf_embedder.php:527
+msgid ""
+"Our <b>PDF Embedder Premium Secure</b> plugin provides the same simple but elegant viewer for your website visitors, with the added protection that\n"
+"            it is difficult for users to download or print the original PDF document."
+msgstr ""
+"Onze <b>PDF Embedder Premium Secure</b> plugin bied dezelfde eenvoudige maar elegante viewer voor je site bezoekers, met de toegevoegde bescherming\n"
+"           zodat het moeilijk is voor gebruikers om je originele PDF document te downloaden of af te drukken."
+
+#: core/core_pdf_embedder.php:526
+msgid "Protect your PDFs using PDF Embedder Secure"
+msgstr "Beveilig je PDFs met PDF Embedder Secure"
+
+#: core/core_pdf_embedder.php:508
+msgid "You can override these defaults for specific embeds by modifying the shortcodes - see <a href=\"%s\" target=\"_blank\">instructions</a>."
+msgstr "Je kan deze standaard waarden aanpassen voor specifieke insluitingen door de shortcode - kijk bij <a href=\"%s\" target=\"_blank\">uitleg</a>."
+
+#: core/core_pdf_embedder.php:490
+msgid "Toolbar always visible"
+msgstr "Toolbar altijd zichtbaar"
+
+#: core/core_pdf_embedder.php:485 assets/js/pdfemb-blocks.js:162
+msgid "Toolbar appears only on hover over document"
+msgstr "Toolbar enkel zichtbaar als de muis over het document heen gaat"
+
+#: core/core_pdf_embedder.php:482 assets/js/pdfemb-blocks.js:159
+msgid "Toolbar Hover"
+msgstr "Toolbar hover"
+
+#: core/core_pdf_embedder.php:476
+msgid "Both"
+msgstr "Beiden"
+
+#: core/core_pdf_embedder.php:475
+msgid "Bottom"
+msgstr "Onder"
+
+#: core/core_pdf_embedder.php:474
+msgid "Top"
+msgstr "Top"
+
+#: core/core_pdf_embedder.php:472 assets/js/pdfemb-blocks.js:145
+msgid "Toolbar Location"
+msgstr "Toolbar locatie"
+
+#: core/core_pdf_embedder.php:468
+msgid "Enter <b>max</b> or an integer number of pixels"
+msgstr "Schrijf <b>max</b> of een heel getal aan pixels"
+
+#: core/core_pdf_embedder.php:464 assets/js/pdfemb-blocks.js:137
+msgid "Height"
+msgstr "Hoogte"
+
+#: core/core_pdf_embedder.php:460 assets/js/pdfemb-blocks.js:129
+msgid "Width"
+msgstr "Breedte"
+
+#: core/core_pdf_embedder.php:458
+msgid "Default Viewer Settings"
+msgstr "Standaard viewer instellingen"
+
+#: core/core_pdf_embedder.php:428
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+#: core/core_pdf_embedder.php:392
+msgid "Mobile"
+msgstr "Mobiel"
+
+#: core/core_pdf_embedder.php:391
+msgid "Main Settings"
+msgstr "Algemene Instellingen"
+
+#: core/core_pdf_embedder.php:455
+msgid ""
+"From the post editor, click Add Media, and then drag-and-drop your PDF file into the media library.\n"
+"When you insert the PDF into your post, it will automatically embed using the plugin's viewer."
+msgstr ""
+"Vanuit de berichten editor, klik \"Media toevoegen\", en dan sleep en plaats je PDF bestand in de media bibliotheek\n"
+"Als je de PDF in je bericht insluit, zal het automatisch ingesloten worden met gebruik van de plugin viewer."
+
+#: core/core_pdf_embedder.php:454
+msgid "To use the plugin, just embed PDFs in the same way as you would normally embed images in your posts/pages - but try with a PDF file instead."
+msgstr "Om deze plugin te gebruiken, moet je PDF op dezelfde manier in je berichten/pagina's plaatsen als met normale afbeeldingen, maar dan met een PDF bestand."
+
+#: core/core_pdf_embedder.php:452
+msgid "PDF Embedder setup"
+msgstr "PDF Embedder installatie"
+
+#. Plugin Name of the plugin
+#: core/core_pdf_embedder.php:332 core/core_pdf_embedder.php:337
+#: assets/js/pdfemb-blocks.js:28
+msgid "PDF Embedder"
+msgstr "PDF Embedder"
+
+#: core/core_pdf_embedder.php:332 core/core_pdf_embedder.php:337
+msgid "PDF Embedder settings"
+msgstr "Instellingen PDF Embedder"
+
+#: core/core_pdf_embedder.php:137
+msgid "PDF <span class=\"count\">(%s)</span>"
+msgid_plural "PDFs <span class=\"count\">(%s)</span>"
+msgstr[0] "PDF <span class=\"count\">(%s)</span>"
+msgstr[1] "PDF's <span class=\"count\">(%s)</span>"
+
+#: core/core_pdf_embedder.php:137
+msgid "Manage PDFs"
+msgstr "Beheer PDF's"
+
+#: core/core_pdf_embedder.php:137
+msgid "PDFs"
+msgstr "PDF's"
+
+#: core/core_pdf_embedder.php:121
+msgid "View in Full Screen"
+msgstr "Bekijk in volledig scherm"
+
+#: core/core_pdf_embedder.php:120
+msgid "PDF page width or height are invalid"
+msgstr "Hoogte of breedte van PDF pagina ongeldig"
+
+#: core/core_pdf_embedder.php:119
+msgid "Click here for more info"
+msgstr "Druk hier voor meer informatie"
+
+#: core/core_pdf_embedder.php:118
+msgid "Error: URL to the PDF file must be on exactly the same domain as the current web page."
+msgstr "FOUT: de URL van de PDF moet op precies hetzelfde domein zijn als de huidige webpagina."
+
+#: core/core_pdf_embedder.php:117
+msgid "Full Screen"
+msgstr "Volledig scherm"
+
+#: core/core_pdf_embedder.php:116
+msgid "Download PDF"
+msgstr "Download PDF"
+
+#: core/core_pdf_embedder.php:114 core/core_pdf_embedder.php:393
+msgid "Secure"
+msgstr "Beveiligd"
+
+#: core/core_pdf_embedder.php:115
+msgid "Zoom Out"
+msgstr "Uitzoomen"
+
+#: core/core_pdf_embedder.php:113
+msgid "Zoom In"
+msgstr "Inzoomen"
+
+#: core/core_pdf_embedder.php:112
+msgid "Next page"
+msgstr "Volgende pagina"
+
+#: core/core_pdf_embedder.php:111
+msgid "Previous page"
+msgstr "Vorige pagina"
+
+#: core/core_pdf_embedder.php:110
+msgid "Zoom"
+msgstr "Zoomen"
+
+#: core/core_pdf_embedder.php:109
+msgid "Page"
+msgstr "Pagina"
+
+#: core/core_pdf_embedder.php:108
+msgid "Loading..."
+msgstr "Aan het laden..."
