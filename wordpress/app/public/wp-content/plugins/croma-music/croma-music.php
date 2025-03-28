@@ -33,6 +33,8 @@ define( 'IRON_MUSIC', TRUE );
 if (!defined('ACF_LITE'))
     define( 'ACF_LITE', FALSE );
 
+define('YOUR_PLUGIN_DIR', plugin_dir_path(__FILE__));
+
 define( 'IRON_MUSIC_DIR_PATH', plugin_dir_path(__FILE__ ) );
 define( 'IRON_MUSIC_DIR_URL', plugin_dir_url( __FILE__ ) );
 define( 'IRON_MUSIC_PREFIX', 'IRONMUSIC: ' );
@@ -150,14 +152,14 @@ function ironMusic_load_script($hook){
     wp_enqueue_script( 'iron_feature', IRON_MUSIC_DIR_URL . '/js/ironFeatures.js', array( 'jquery', 'color', 'fontSelector' ), NULL, TRUE );
 
     wp_enqueue_style('iron-vc', IRON_MUSIC_DIR_URL .'admin/assets/css/vc.css', false, '', 'all' );
-	wp_enqueue_style('iron-acf', IRON_MUSIC_DIR_URL .'admin/assets/css/acf.css', false, '', 'all' );
+    wp_enqueue_style('iron-acf', IRON_MUSIC_DIR_URL .'admin/assets/css/acf.css', false, '', 'all' );
 
-	wp_enqueue_script('iron-admin-custom', IRON_MUSIC_DIR_URL .'admin/assets/js/custom.js', array('jquery'), null, true);
-	wp_enqueue_script('iron-admin-vc', IRON_MUSIC_DIR_URL .'admin/assets/js/vc.js', array('jquery','rome-datepicker'), null, true);
+    wp_enqueue_script('iron-admin-custom', IRON_MUSIC_DIR_URL .'admin/assets/js/custom.js', array('jquery'), null, true);
+    wp_enqueue_script('iron-admin-vc', IRON_MUSIC_DIR_URL .'admin/assets/js/vc.js', array('jquery','rome-datepicker'), null, true);
 
-	wp_localize_script('iron-admin-vc', 'iron_vars', array(
-		'patterns_url' => IRON_MUSIC_DIR_URL .'admin/assets/img/vc/patterns/'
-	));
+    wp_localize_script('iron-admin-vc', 'iron_vars', array(
+        'patterns_url' => IRON_MUSIC_DIR_URL .'admin/assets/img/vc/patterns/'
+    ));
 
 }
 
@@ -166,12 +168,12 @@ function ironMusic_load_frontend(){
     $uploadDir = wp_upload_dir();
 
     if ( get_ironMusic_option( 'external_css', '_iron_music_import_export_options' ) == '1' ) {
-		wp_enqueue_style('iron_feature_music_css', $uploadDir['baseurl'] . '/css/custom-style-croma-music.css' , array(), NULL, 'all' );
-		wp_enqueue_style('iron_feature_event_css', $uploadDir['baseurl'] . '/css/custom-style-croma-event.css' , array(), NULL, 'all' );
-	}else{
-		wp_enqueue_style('iron_feature_event_css', home_url('/') .'?loadIronMusic=iron_feature.css&option_style=event', array(), NULL, 'all' );
+        wp_enqueue_style('iron_feature_music_css', $uploadDir['baseurl'] . '/css/custom-style-croma-music.css' , array(), NULL, 'all' );
+        wp_enqueue_style('iron_feature_event_css', $uploadDir['baseurl'] . '/css/custom-style-croma-event.css' , array(), NULL, 'all' );
+    }else{
+        wp_enqueue_style('iron_feature_event_css', home_url('/') .'?loadIronMusic=iron_feature.css&option_style=event', array(), NULL, 'all' );
         wp_enqueue_style('iron_feature_music_css', home_url('/') .'?loadIronMusic=iron_feature.css&option_style=music', array(), NULL, 'all' );
-	}
+    }
 
 
     wp_enqueue_script( 'jquery.plugin', IRON_MUSIC_DIR_URL . 'js/countdown/jquery.plugin.min.js', array( 'jquery' ), NULL, TRUE );
@@ -180,19 +182,19 @@ function ironMusic_load_frontend(){
     wp_enqueue_script( 'objectFittPolyfill', IRON_MUSIC_DIR_URL. 'js/objectFittPolyfill.min.js', NULL, true );
 
     wp_register_script('wavesurfer', '//cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/1.2.8/wavesurfer.min.js', array(), NULL, true);
-	wp_register_script('moments', '//cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js', array(), NULL, true);
-	wp_enqueue_script('iron-audio-player', get_template_directory_uri () . '/js/iron-audioplayer.js', array('jquery', 'wavesurfer','iron-main', 'moments'), NULL, true);
-	wp_enqueue_style('iron-audio-player', get_template_directory_uri () . '/css/iron-audioplayer.css', array('js_composer_front'));
+    wp_register_script('moments', '//cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js', array(), NULL, true);
+    wp_enqueue_script('iron-audio-player', get_template_directory_uri () . '/js/iron-audioplayer.js', array('jquery', 'wavesurfer','iron-main', 'moments'), NULL, true);
+    wp_enqueue_style('iron-audio-player', get_template_directory_uri () . '/css/iron-audioplayer.css', array('js_composer_front'));
 
     wp_localize_script('jquery.countdown_js', 'plugins_vars', array(
-		'labels' => array(_x('Years','Countdown label','croma-music'),_x('Months','Countdown label','croma-music'),_x('Weeks','Countdown label','croma-music'),_x('Days','Countdown label','croma-music'),_x('Hours','Countdown label','croma-music'),_x('Minutes','Countdown label','croma-music'),_x('Seconds','Countdown label','croma-music')),
-		'labels1' => array(_x('Year','Countdown label','croma-music'),_x('Month','Countdown label','croma-music'),_x('Week','Countdown label','croma-music'),_x('Day','Countdown label','croma-music'),_x('Hour','Countdown label','croma-music'),_x('Minute','Countdown label','croma-music'),_x('Second','Countdown label','croma-music')),
-		'compactLabels' => array(_x('y','Countdown label','croma-music'),_x('m','Countdown label','croma-music'),_x('w','Countdown label','croma-music'),_x('d','Countdown label','croma-music'))
-	));
+        'labels' => array(_x('Years','Countdown label','croma-music'),_x('Months','Countdown label','croma-music'),_x('Weeks','Countdown label','croma-music'),_x('Days','Countdown label','croma-music'),_x('Hours','Countdown label','croma-music'),_x('Minutes','Countdown label','croma-music'),_x('Seconds','Countdown label','croma-music')),
+        'labels1' => array(_x('Year','Countdown label','croma-music'),_x('Month','Countdown label','croma-music'),_x('Week','Countdown label','croma-music'),_x('Day','Countdown label','croma-music'),_x('Hour','Countdown label','croma-music'),_x('Minute','Countdown label','croma-music'),_x('Second','Countdown label','croma-music')),
+        'compactLabels' => array(_x('y','Countdown label','croma-music'),_x('m','Countdown label','croma-music'),_x('w','Countdown label','croma-music'),_x('d','Countdown label','croma-music'))
+    ));
 
     wp_enqueue_script( 'iron-twitter', IRON_MUSIC_DIR_URL.'js/twitter/jquery.tweet.min.js', array('jquery'), null, TRUE);
-	wp_localize_script('iron-twitter', 'ajax_vars', array(
-	    'ajax_url' => admin_url( 'admin-ajax.php' )
+    wp_localize_script('iron-twitter', 'ajax_vars', array(
+        'ajax_url' => admin_url( 'admin-ajax.php' )
     ));
 }
 
@@ -244,65 +246,65 @@ function ironMusic_load_dynamic_assets() {
 
 function ironMusic_write_dynamic_assets( $option, $old_value, $value ){
 
-	if( !is_admin() )
-		return;
+    if( !is_admin() )
+        return;
 
     $generalOption = get_option('_iron_music_import_export_options');
 
-	if ( ( $option == '_iron_music_music_player_options' || $option == '_iron_music_event_options' || $option == '_iron_music_general_options' || $option == '_iron_music_import_export_options' || $option == 'theme_switched' ) ){
+    if ( ( $option == '_iron_music_music_player_options' || $option == '_iron_music_event_options' || $option == '_iron_music_general_options' || $option == '_iron_music_import_export_options' || $option == 'theme_switched' ) ){
 
 
 
         if ( $generalOption['external_css'] == '1' ) {
 
-    		// read file
-    		ob_start();
+            // read file
+            ob_start();
 
-    		include( IRON_MUSIC_DIR_PATH .'/css/custom-style.php');
-    		// put content in data
-    		$data = ob_get_clean();
+            include( IRON_MUSIC_DIR_PATH .'/css/custom-style.php');
+            // put content in data
+            $data = ob_get_clean();
 
-    		$uploadDir = wp_upload_dir();
-    		if (!is_dir($uploadDir['basedir'] . '/css')) {
-    			mkdir( $uploadDir['basedir'] . '/css' );
-    		}
+            $uploadDir = wp_upload_dir();
+            if (!is_dir($uploadDir['basedir'] . '/css')) {
+                mkdir( $uploadDir['basedir'] . '/css' );
+            }
 
-    		$fileCCss = fopen( $uploadDir['basedir'] . '/css/custom-style-croma-music.css', 'w' );
-    		fwrite($fileCCss,  $data );
-    		fclose($fileCCss);
+            $fileCCss = fopen( $uploadDir['basedir'] . '/css/custom-style-croma-music.css', 'w' );
+            fwrite($fileCCss,  $data );
+            fclose($fileCCss);
         }
-	}
+    }
 
 }
 
 function ironMusic_event_write_dynamic_assets( $option, $old_value, $value ){
 
-	if( !is_admin() )
-		return;
+    if( !is_admin() )
+        return;
 
     $generalOption = get_option('_iron_music_import_export_options');
 
-	if ( ( $option == '_iron_music_music_player_options' || $option == '_iron_music_event_options' || $option == '_iron_music_general_options' || $option == '_iron_music_import_export_options' || $option == 'theme_switched' ) ){
+    if ( ( $option == '_iron_music_music_player_options' || $option == '_iron_music_event_options' || $option == '_iron_music_general_options' || $option == '_iron_music_import_export_options' || $option == 'theme_switched' ) ){
 
         if ( $generalOption['external_css'] == '1' ) {
 
-    		// read file
-    		ob_start();
+            // read file
+            ob_start();
 
-    		include( IRON_MUSIC_DIR_PATH .'/css/custom-style-event.php');
-    		// put content in data
-    		$data = ob_get_clean();
+            include( IRON_MUSIC_DIR_PATH .'/css/custom-style-event.php');
+            // put content in data
+            $data = ob_get_clean();
 
-    		$uploadDir = wp_upload_dir();
-    		if (!is_dir($uploadDir['basedir'] . '/css')) {
-    			mkdir( $uploadDir['basedir'] . '/css' );
-    		}
+            $uploadDir = wp_upload_dir();
+            if (!is_dir($uploadDir['basedir'] . '/css')) {
+                mkdir( $uploadDir['basedir'] . '/css' );
+            }
 
-    		$fileCCss = fopen( $uploadDir['basedir'] . '/css/custom-style-croma-event.css', 'w' );
-    		fwrite($fileCCss,  $data );
-    		fclose($fileCCss);
+            $fileCCss = fopen( $uploadDir['basedir'] . '/css/custom-style-croma-event.css', 'w' );
+            fwrite($fileCCss,  $data );
+            fclose($fileCCss);
         }
-	}
+    }
 
 }
 

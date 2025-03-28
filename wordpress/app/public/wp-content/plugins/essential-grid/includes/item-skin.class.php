@@ -1142,7 +1142,7 @@ class Essential_Grid_Item_Skin {
 									&& (!isset($this->media_sources[$order]['ogv']) || $this->media_sources[$order]['ogv'] == '')
 									){ //not a single video is set, go to the next instead of the break
 									$do_continue = true;
-									continue;
+									continue 2;
 								}
 
 								$html5_image_type = $this->get_video_image_type('html');
