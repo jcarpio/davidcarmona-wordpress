@@ -1,0 +1,10 @@
+
+Warning: Use of undefined constant YOUR_PLUGIN_DIR - assumed 'YOUR_PLUGIN_DIR' (this will throw an Error in a future version of PHP) in /Users/jose/Local Sites/davidcarmona-com/app/public/wp-content/plugins/croma-music/croma-music.php on line 100
+
+Warning: "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /Users/jose/Local Sites/davidcarmona-com/app/public/wp-content/plugins/essential-grid/includes/item-skin.class.php on line 1145
+
+Warning: "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /Users/jose/Local Sites/davidcarmona-com/app/public/wp-content/plugins/revslider/includes/operations.class.php on line 2695
+
+Warning: "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /Users/jose/Local Sites/davidcarmona-com/app/public/wp-content/plugins/revslider/includes/operations.class.php on line 2699
+
+Warning: "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /Users/jose/Local Sites/davidcarmona-com/app/public/wp-content/plugins/revslider/includes/output.class.php on line 3581
